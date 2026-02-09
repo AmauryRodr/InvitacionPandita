@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Shower de Aylani</title>
+
+    <!-- Fuente decorativa -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        *:not(#btn-musica):not(#btn-musica *) {
+            font-family: 'Great Vibes', cursive !important;
+            font-style: italic !important;
+            font-weight: bold !important;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="sobre-inicial">
+  <div class="sobre">
+    <p>Haz clic para abrir la invitación</p>
+  </div>
+</div>
+
+<div id="contenido-principal" style="display: none;">
+</div>
+
+<!-- Música de fondo -->
+<audio id="musica-boda" autoplay loop>
+    <source src="panfita.mpeg" type="audio/mpeg">
+</audio>
+
+<button id="btn-musica">⏯️ Música</button>
+
+<div class="hero fade-in">
+    <div class="overlay">
+        <h1>Baby Shower</h1>
+        <p class="subtitle">Aylani Rodríguez Martínez</p>
+        <div id="countdown" class="countdown"></div>
+    </div>
+</div>
+
+<section class="familia fade-in">
+    <div class="caja-texto">
+        <h2>Con amor te esperamos</h2>
+        <p><strong>Mis papás</strong></p>
+        <p class="nombres">❤️ Axel Rodríguez Silva ❤️</p>
+        <p class="nombres">❤️ Xali Martínez Mendoza ❤️</p>
+        <h3>Nuestra alegría está por llegar</h3>
+        <p>Gracias por acompañarnos en este momento tan especial</p>
+    </div>
+</section>
+
+<section class="evento fade-in">
+    <div class="caja-texto">
+        <h2>Celebración del Baby Shower</h2>
+        <p><strong>Fecha y hora por confirmar</strong></p>
+        <p><em>Recepción en domicilio conocido</em></p>
+
+        <div class="mapa-ubicacion">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7506.026044387543!2d-99.07488165870204!3d19.8394019261148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d18ef212e3b4fb%3A0xfbf9246f450fe20d!2sALUMINUM%20AND%20GLASS%20Aluvi%22.!5e0!3m2!1ses-419!2smx!4v1770344369233!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<section class="galeria fade-in">
+    <h2>Momentos Especiales</h2>
+    <div class="carrusel">
+        <button class="btn-carrusel" id="anterior">⏮️</button>
+        <div class="contenedor-img">
+            <img id="imagen-carrusel" src="https://i.imgur.com/L6b5ZFt.jpg" alt="Baby Shower">
+        </div>
+        <button class="btn-carrusel" id="siguiente">⏭️</button>
+    </div>
+</section>
+
+<section class="video-seccion">
+    <h2>Un mensaje especial</h2>
+    <div class="video-wrapper">
+        <video controls poster="poster.jpg">
+            <source src="la_azendencia.mp4" type="video/mp4">
+            Tu navegador no soporta video HTML5.
+        </video>
+    </div>
+</section>
+
+<section class="rsvp fade-in">
+    <h2>Confirma tu asistencia</h2>
+    <form id="form-rsvp">
+        <input type="text" id="nombre" placeholder="Tu nombre completo" required>
+        <input type="number" id="asistentes" placeholder="¿Cuántos asistirán?" min="1" required>
+        <button type="submit">Confirmar</button>
+    </form>
+    <p id="mensaje"></p>
+    <div id="lista-invitados"></div>
+</section>
+
+<footer class="footer fade-in">
+    <p>Con cariño,<br>Brayan Axel & Xali</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
