@@ -62,7 +62,7 @@ document.getElementById("form-rsvp").addEventListener("submit", function (e) {
   const numeroWhatsApp = "5215645739439"; // ← CAMBIA este número por el tuyo
 
   // Mensaje para enviar por WhatsApp
-  const mensajeWA = `Hola! Confirmo mi asistencia a la boda de Ricardo y Yesi. Mi nombre es ${nombre} y asistirán ${asistentes} persona(s).`;
+  const mensajeWA = `Hola! Confirmo mi asistencia al Baby Shower de Aylani. Mi nombre es ${nombre} y asistirán ${asistentes} persona(s).`;
 
   // Redirección a WhatsApp
   window.open(`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensajeWA)}`, "_blank");
