@@ -98,7 +98,7 @@ btnMusica.addEventListener("click", () => {
 });
 
 // --- Carrusel de galería ---
-const imagenesGaleria = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"];
+const imagenesGaleria = ["1.jpeg", "3.jpeg", "2.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpeg"];
 let indiceActual = 0;
 const imgCarrusel = document.getElementById("imagen-carrusel");
 const btnAnterior = document.getElementById("anterior");
