@@ -243,13 +243,13 @@ footer.footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
+    /* color: white; */
     padding: 40px 20px;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    text-shadow: 1px 1px 2px black;
-    border-top: 2px solid #8b0000;
+    /* text-shadow: 1px 1px 2px purple; */
+    /* border-top: 2px solid #8b0000; */
 }
 
 /* --- Media Queries para móviles --- */
@@ -367,7 +367,7 @@ footer.footer {
 
 .galeria h2 {
     margin-bottom: 30px;
-    text-shadow: 1px 1px 2px black;
+    /* text-shadow: 1px 1px 2px black; */
 }
 
 .carrusel {
@@ -452,13 +452,7 @@ footer.footer {
   padding: 60px 20px;
   text-align: center;
   color: white;
-}
-
-/* Estilo del título */
-.video-seccion h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 4px black;
+  /* max-width: 1080px;   */
 }
 
 /* Contenedor del video */

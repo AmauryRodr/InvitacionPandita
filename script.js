@@ -59,7 +59,7 @@ document.getElementById("form-rsvp").addEventListener("submit", function (e) {
   }
 
   // Número de WhatsApp al que llegará la confirmación
-  const numeroWhatsApp = "5214613613044"; // ← CAMBIA este número por el tuyo
+  const numeroWhatsApp = "5215645739439"; // ← CAMBIA este número por el tuyo
 
   // Mensaje para enviar por WhatsApp
   const mensajeWA = `Hola! Confirmo mi asistencia a la boda de Ricardo y Yesi. Mi nombre es ${nombre} y asistirán ${asistentes} persona(s).`;
