@@ -69,7 +69,7 @@ document.getElementById("form-rsvp").addEventListener("submit", function (e) {
 
   // Ocultar el formulario y mostrar mensaje de agradecimiento
   document.getElementById("form-rsvp").style.display = "none";
-  mensajeEl.innerText = "✅ ¡Gracias por confirmar tu asistencia!";
+  mensajeEl.innerText = "¡Gracias por confirmar tu asistencia!";
 });
 
 // --- Animación fade-in al hacer scroll ---
