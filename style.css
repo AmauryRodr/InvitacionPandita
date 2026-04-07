@@ -59,7 +59,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-image: url('https://i.pinimg.com/originals/3e/bf/2e/3ebf2ed73870f72966f9764300b81dc6.gif'); /* imagen de sobre */
+  background-image: url('https://media.tenor.com/PfmpdNwZtTsAAAAC/oh-yeah-lightning-mcqueen.gif'); /* imagen de sobre */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -135,7 +135,7 @@ body {
 
 /* --- Hero --- */
 .hero {
-    background-image: url('https://img.freepik.com/fotos-premium/panda-es-adorable-conmovedor-lindo_68067-10840.jpg');
+    background-image: url('https://i.pinimg.com/originals/f2/c1/6e/f2c16e32af014d2d3a58282ddc56696c.png');
     background-size: cover;       /* cubre todo el contenedor */
     background-position: center;  /* centra la imagen */
     background-repeat: no-repeat;
@@ -699,7 +699,7 @@ h1, h2, h3, p, span, li, a, label {
 .video-seccion,
 .rsvp,
 footer.footer {
-  background-image: url('https://i.pinimg.com/originals/a1/16/55/a116554c35fab75cdfaff35097b272d6.gif');
+  background-image: url('https://usagif.com/wp-content/uploads/balloon-39.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
